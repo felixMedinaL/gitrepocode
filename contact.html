@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="product.html">Productos</a>   
+      </li>
+      <li>
+        <a href="service.html">Servicios</a>  
+      </li>
+      <li>
+        <a href="contact.html">Contacto</a>  
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+      <h3>Cuentanos!</h3>
+        <form action="submeter-formulario.php" method="post">       
+          <p>
+          <label for="nombre" class="colocar_nombre">Nombre
+          <span class="obligatorio">*</span></label>
+          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+          </p>
+          <p>
+          <label for="email" class="colocar_email">Email
+          <span class="obligatorio">*</span>
+          </label>
+          <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+          </p>
+          <p>
+          <label for="telefone" class="colocar_telefono">Teléfono
+          </label>
+          <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+          </p>       
+          <p>
+          <label for="asunto" class="colocar_asunto">Asunto
+          <span class="obligatorio">*</span>
+          </label>
+          <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+          </p>    
+          <p>
+          <label for="mensaje" class="colocar_mensaje">Mensaje
+          <span class="obligatorio">*</span>
+          </label>                     
+          <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+          </p>                    
+          <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+          <p class="aviso">
+          <span class="obligatorio"> * </span>los campos son obligatorios.
+          </p>          
+        </form>
+    </div>  
+  </div>
+  <footer>
+    <div class="infofooter">
+      <div class="ul">
+        <ul>
+          <li>
+            <p>Direc.Cerro el Plomo, Las Condes.Stgo</p>
+          </li>
+          <li>
+            <p>Telefono +56-9 54321 235</p>
+          </li>
+          <li>
+            <p>Mail adventuretime@gmail.com</p>
+          </li>
+          <li>
+            Redes Sociales
+          </li>
+            <div class="icon">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter-square"></i>
+            </div>
+        </ul>
+      </div>
+      <div class="ul">
+        <ul>
+          <li>
+            <p>Nuestra Empresa Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nisi consequatur facilis nostrum quasi porro suscipit quae velit aliquam deleniti, sapiente numquam deserunt laborum. Rem totam veritatis reiciendis non magnam?/p>
+          </li>
+        </ul>
+      </div>
+      <div class="ul">
+        <ul>
+          <img src="img/images.jpg" alt="map">
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -34,7 +34,7 @@ nav ul li a {
 
 header {
     grid-area: header;
-    padding 3px;
+    padding: 3px;
 }
 
 header .banner {
